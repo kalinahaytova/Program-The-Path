@@ -1,0 +1,80 @@
+﻿body {
+    background-color: #fccd49;
+}
+
+nav {
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
+
+button {
+    background-color: #fff1c9;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #363636;
+    border: 2px solid #363636;
+    color: white;
+}
+
+section {
+    height: 20px; 
+    color: white;
+    padding-left: 10px;
+}
+
+h1 {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+    color: rebeccapurple;
+    display: none;
+}
+
+div {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    float: left;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+main {
+    margin: 80px auto;
+    padding: 10px;
+}
+
+div.player {
+    background-color: #fff1c9;
+}
+
+div.exit {
+    background-color: #363636;
+    border: 1px solid #363636;
+}
+
+div.wall {
+    background-color: #ebb30e;
+    border: 1px solid #ebb30e;
+}
+
+section .executed {
+    font-weight: bold;
+}
+
+section span {
+    padding: 5px;
+}
